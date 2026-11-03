@@ -1,0 +1,38 @@
+# ==========================================
+# Build Output Directories & Binary Artifacts
+# ==========================================
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.su
+*.cyclo
+*.bin
+*.hex
+
+# ==========================================
+# STM32CubeIDE / Eclipse Metadata & State
+# ==========================================
+.metadata/
+.settings/
+.project.bak
+.cproject.bak
+.loadpath
+
+# Local debug launch configurations (prevent IDE host paths from syncing)
+*.launch
+
+# ==========================================
+# Tracing & Tool Logs (SystemView / Tera Term)
+# ==========================================
+*.SVDat
+*.log
+
+# ==========================================
+# OS & System Clutter
+# ==========================================
+.DS_Store
+Thumbs.db
